@@ -1,6 +1,6 @@
 # staticIP
 How to configure Static IP for  NodeMcu Development board 
-
+```
 #include <ESP8266WiFi.h>
 
 const char* SSID = "SSID";
@@ -19,3 +19,5 @@ void setup()
   // Recheck the IP address 
   Serial.println(WiFi.localIP());
 }
+
+```
